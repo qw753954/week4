@@ -4,356 +4,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        html,
-        body,
-        div,
-        span,
-        applet,
-        object,
-        iframe,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        blockquote,
-        pre,
-        a,
-        abbr,
-        acronym,
-        address,
-        big,
-        cite,
-        code,
-        del,
-        dfn,
-        em,
-        img,
-        ins,
-        kbd,
-        q,
-        s,
-        samp,
-        small,
-        strike,
-        strong,
-        sub,
-        sup,
-        tt,
-        var,
-        b,
-        u,
-        i,
-        center,
-        dl,
-        dt,
-        dd,
-        ol,
-        ul,
-        li,
-        fieldset,
-        form,
-        label,
-        legend,
-        table,
-        caption,
-        tbody,
-        tfoot,
-        thead,
-        tr,
-        th,
-        td,
-        article,
-        aside,
-        canvas,
-        details,
-        embed,
-        figure,
-        figcaption,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        output,
-        ruby,
-        section,
-        summary,
-        time,
-        mark,
-        audio,
-        video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-        }
-        /* HTML5 display-role reset for older browsers */
-        
-        article,
-        aside,
-        details,
-        figcaption,
-        figure,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        section {
-            display: block;
-        }
-        
-        body {
-            line-height: 1.5;
-            font-family: "Noto Sans TC", sans-serif;
-        }
-        
-        ol,
-        ul {
-            list-style: none;
-        }
-        
-        blockquote,
-        q {
-            quotes: none;
-        }
-        
-        blockquote:before,
-        blockquote:after,
-        q:before,
-        q:after {
-            content: "";
-            content: none;
-        }
-        
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
-        /*分隔線*/
-        
-        .container {
-            width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .name {
-            font-size: 80px;
-            line-height: 1.2;
-            padding: 40px 0 24px;
-            border-bottom: 3px solid #000;
-        }
-        
-        .pic {
-            margin: 48px 0;
-        }
-        
-        .item+.item {
-            margin-top: 72px;
-        }
-        
-        .title {
-            font-size: 32px;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            border-bottom: 1px solid #000;
-            padding-bottom: 10px;
-            margin-bottom: 16px;
-        }
-        
-        span {
-            font-size: 24px;
-            margin-left: 16px;
-            color: #a00404;
-        }
-        
-        p,
-        li {
-            font-size: 24px;
-            font-weight: 300;
-        }
-        
-        li+li {
-            margin-top: 24px;
-        }
-        
-        .item-blue {
-            background: #415165;
-            padding: 24px 102px 52px;
-        }
-        
-        .title-blue {
-            color: #fff;
-            border-bottom: 1px solid #fff;
-            justify-content: center;
-            margin-bottom: 40px;
-        }
-        
-        .title-blue span {
-            color: #fff;
-        }
-        
-        .content-blue {
-            color: #fff;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .content-blue ul {
-            border-left: 1px solid #96A9C4;
-            padding-left: 24px;
-        }
-        
-        .work-list {
-            margin-left: 24px;
-            padding-left: 24px;
-            border-left: 1px solid #96A9C4;
-        }
-        
-        .work-list h3 {
-            font-weight: 500;
-        }
-        
-        .work-list li p {
-            width: 642px;
-            line-height: 1.8;
-            font-size: 20px;
-        }
-        
-        .work-list img {
-            display: block;
-            margin: 8px 0;
-        }
-        
-        .footer {
-            margin-top: 72pt;
-            padding: 24px 0 48px;
-            background-color: #415165;
-        }
-        
-        .footer .content {
-            text-align: center;
-        }
-        
-        .footer ul {
-            border-left: none;
-        }
-        
-        .footer a {
-            text-decoration: none;
-            color: #fff;
-        }
-        
-        .footer a+a {
-            margin-left: 24px;
-        }
-    </style>
+    <title>Sweetaste*</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;500;700;900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <div class="container">
-        <h1 class="name">Joanne <br> Chen</h1>
-        <div class="pic">
-            <img src="https://hexschool.github.io/webLayoutTraining1st/week1/photo.png">
-        </div>
 
-        <div class="item">
-            <h2 class="title">個人資料<span>PROFILE</span></h2>
-            <div class="content">
-                <ul>
-                    <li>
-                        <p>陳久安 Joanne Chen</p>
-                        <p>1997-</p>
-                        <p>應屆畢業生／接案設計師／UI 設計實習生</p>
-                    </li>
-
-                    <li>
-                        <p>UI 設計修行中／立志當斜槓青年</p>
-                        <p>獨立接案，內容涵蓋：</p>
-                        <p>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="item">
-            <h2 class="title">學歷<span>EDUCATION</span></h2>
-            <div class="content">
-                <ul>
-                    <li>國立六角師範大學 視覺設計學系 學士學位 | 2016－2020</li>
-                    <li>國立六腳高級中學 美術班 | 2013－2016</li>
-                </ul>
-            </div>
-        </div>
-        <div class="item item-blue">
-            <h2 class="title title-blue">技能<span>SKILLS</span></h2>
-            <div class="content content-blue">
-                <ul>
-                    <li>Adobe Photoshop</li>
-                    <li>Adobe Illustrator</li>
-                    <li>Adobe XD</li>
-                    <li>Adobe Indesign</li>
-                    <li>C4D</li>
-                    <li>Adobe Premiere</li>
-                    <li>語言：中文、英文</li>
-                </ul>
-            </div>
-        </div>
-        <div class="item">
-            <h2 class="title">工作經驗<span>WORK EXPERIENCE</span></h2>
-            <ul class="work-list">
+        <div class="header">
+            <a href="#" class="hamIcon"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/dehaze-24px.png"></a>
+            <h1><a href="#">HOME</a></h1>
+            <ul class="navbar">
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">甜點</a></li>
+                <li><a href="#">登入</a></li>
                 <li>
-                    <h3>六角學院 視覺設計實習生 | 2019/07－2020/06</h3>
-                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/9abff06f0952894395796442b2d399e46ad98560/week1/Group%201.svg" alt="">
-                    <p>在六角學院長達一年的實習中，前期藉由公司課程掌握 HTML, CSS, Adobe XD，設計給學員使用的名片設計教材，並參與六角週年活動，設計各式周邊商品及活動網路宣傳圖。後期進入 UI 設計範疇，設計六角共筆部落格 - W3HexSchool、六角發案服務網介面設計、供給學員的教案- RWD官方網站設計，並設計各式網頁活動宣傳圖。</p>
-                </li>
-                <li>
-                    <h3>獨立接案 Hao Jun 酒標設計 | 2019</h3>
-                </li>
-                <li>
-                    <h3>獨立接案 Exulans 酒標設計 | 2019</h3>
-                </li>
-                <li>
-                    <h3>獨立接案 桃園平鎮市民健走活動提案 | 2019</h3>
-                </li>
-                <li>
-                    <h3>Simtree 興趣咖啡 工讀生 | 2018－2019</h3>
-                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week1/simtree.png?raw=true" alt="">
-                    <p>擔任外場及吧台服務生，學習咖啡相關知識。</p>
+                    <a href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"></a>
                 </li>
             </ul>
+            <a href="#" class="shopping-cart"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"></a>
+        </div>
+
+        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/banner.png?raw=true" class="banner">
+
+        <div class="content">
+
+            <div class="menu">
+                <h3>甜點類別</h3>
+                <ul class="menu-list">
+                    <li class="menu-active"><a href="#">所有甜點（48）</a></li>
+                    <li><a href="#">本日精選（10）</a></li>
+                    <li><a href="#">人氣推薦（26）</a></li>
+                    <li><a href="#">新品上市（12）</a></li>
+                </ul>
+            </div>
+
+            <div class="product">
+
+                <ul class="product-list">
+                    <li class="product-item">
+                        <div class="today-good">本日精選</div>
+                        <a href="#" class="heart"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true"></a>
+                        <div class="product-pic">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-1.png?raw=true">
+                        </div>
+                        <div class="product-intro">
+                            <p class="name">焦糖馬卡龍</p>
+                            <span class="price">NT$ 450</span>
+                        </div>
+                        <button class="add">加入購物車</button>
+                    </li>
+
+                    <li class="product-item">
+                        <div class="today-good">本日精選</div>
+                        <a href="#" class="heart"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true"></a>
+                        <div class="product-pic">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-2.png?raw=true">
+                        </div>
+                        <div class="product-intro">
+                            <p class="name">焦糖馬卡龍</p>
+                            <span class="price">NT$ 450</span>
+                        </div>
+                        <button class="add">加入購物車</button>
+                    </li>
+
+                    <li class="product-item">
+                        <div class="today-good">本日精選</div>
+                        <a href="#" class="heart"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true"></a>
+                        <div class="product-pic">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-3.png?raw=true">
+                        </div>
+                        <div class="product-intro">
+                            <p class="name">焦糖馬卡龍</p>
+                            <span class="price">NT$ 450</span>
+                        </div>
+                        <button class="add">加入購物車</button>
+                    </li>
+
+                    <li class="product-item">
+                        <div class="today-good">本日精選</div>
+                        <a href="#" class="heart"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true"></a>
+                        <div class="product-pic">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-4.png?raw=true">
+                        </div>
+                        <div class="product-intro">
+                            <p class="name">焦糖馬卡龍</p>
+                            <span class="price">NT$ 450</span>
+                        </div>
+                        <button class="add">加入購物車</button>
+                    </li>
+
+                    <li class="product-item">
+                        <div class="today-good">本日精選</div>
+                        <a href="#" class="heart"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true"></a>
+                        <div class="product-pic">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-5.png?raw=true">
+                        </div>
+                        <div class="product-intro">
+                            <p class="name">焦糖馬卡龍</p>
+                            <span class="price">NT$ 450</span>
+                        </div>
+                        <button class="add">加入購物車</button>
+                    </li>
+
+                    <li class="product-item">
+                        <div class="today-good">本日精選</div>
+                        <a href="#" class="heart"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/favorite_border.png?raw=true"></a>
+                        <div class="product-pic">
+                            <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/p-6.png?raw=true">
+                        </div>
+                        <div class="product-intro">
+                            <p class="name">焦糖馬卡龍</p>
+                            <span class="price">NT$ 450</span>
+                        </div>
+                        <button class="add">加入購物車</button>
+                    </li>
+                </ul>
+
+                <div class="page">
+                    <ul class="page-list">
+                        <li>
+                            <a href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_left.png?raw=true"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="page-active">1</a></li>
+                        <li>
+                            <a href="#">2</a></li>
+                        <li>
+                            <a href="#">3</a></li>
+                        <li>
+                            <a href="#"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_right.png?raw=true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="subscribe">
+        <div class="wrap space-between">
+            <div class="sub-title">
+                <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/student-week1/logo-light.svg">
+                <h3>訂閱你我的甜蜜郵件</h3>
+            </div>
+            <form class="sub-form">
+                <input type="text">
+                <button><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_forward-24px.png?raw=true"></button>
+            </form>
         </div>
     </div>
 
     <div class="footer">
-        <div class="container">
-            <h2 class="title title-blue">聯絡方式<span>CONTACT METHOD</span></h2>
-            <div class="content content-blue">
-                <ul>
-                    <li>Mail：xxxd@hexschool.com</li>
-                    <li>Phone：0910123456</li>
-                    <li>Kaohsiung, Taiwan</li>
-                    <li>作品連結：<a href="https://www.behance.net/xxxdddddd" target="_blank">https://www.behance.net/xxxdddddd</a>
-                    </li>
+        <div class="wrap">
 
-                    <li>
-                        <a href="#" target="_blank" title="Facebook"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/73b96b545b550aa96af4ab47344778653dcba894/week1/facebook.svg"></a>
-                        <a href="#" target="_blank" title="instagram"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/73b96b545b550aa96af4ab47344778653dcba894/week1/instagram-alt.svg"></a>
-                        <a href="#" target="_blank" title="Line"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/73b96b545b550aa96af4ab47344778653dcba894/week1/line.svg"></a>
-                    </li>
+            <div class="fo-top">
+                <div class="contact">
+                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/student-week1/logotype-lg-dark.svg">
+                    <ul>
+                        <li>07-1234-5678</li>
+                        <li>sweetaste@email.com</li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>
+                </div>
+                <div class="slogan">
+                    今天是個——
+                    <p>吃甜點的好日子。</p>
+                </div>
             </div>
+
+            <div class="fo-bottom">
+                <ul class="social-web">
+                    <li>
+                        <a href="#"><img src=" https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/student-week1/ic-line%40.svg "></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/4baf15e7aa2800a1e312de01435b7dbf6f654843/student-week1/ic-facebook.svg "></a>
+                    </li>
+                </ul>
+                <p>© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+
         </div>
     </div>
+
+
 
 </body>
 
