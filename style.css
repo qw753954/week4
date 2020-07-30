@@ -139,7 +139,7 @@
     button {
         border: none;
         cursor: pointer;
-        font-family: "Noto Sans TC", sans-serif;
+        font-family: inherit;
     }
     /* ────────────────────────────────────────────── */
     
@@ -472,6 +472,7 @@
     
     .slogan p {
         text-indent: 15px;
+        white-space: nowrap;
     }
     
     .fo-bottom {
